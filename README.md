@@ -50,6 +50,8 @@ ADMIN LOGIN
 📬 Contact
 ##
 Name: kajal parmar
-##Email: parmarkajal047@gmail.com
-##LinkedIn: https://www.linkedin.com/in/kajal-parmar08/
+##
+Email: parmarkajal047@gmail.com
+##
+LinkedIn: https://www.linkedin.com/in/kajal-parmar08/
 
