@@ -30,9 +30,9 @@ Import the SQL file provided in the project (database/homeservice_db.sql)
 
 📸 Screenshots
 
+HOME PAGE
 ![Screenshot 2025-03-09 171315](https://github.com/user-attachments/assets/c237a6f7-655c-46ab-b4e3-a38c58643552)
 
-![Screenshot 2025-03-09 171456](https://github.com/user-attachments/assets/43c165e3-83fd-468f-bc1a-1919061e003f)
 
 ![Screenshot 2025-03-09 171524](https://github.com/user-attachments/assets/f0e41ec8-0160-4ae2-a36d-12377d8a7dbb)
 
