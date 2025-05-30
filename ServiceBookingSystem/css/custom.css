@@ -1,0 +1,251 @@
+.dark-big-links .nav-item {
+    margin-right: 15px;
+    /* Adds spacing between menu items */
+}
+
+.dark-big-links .nav-link {
+    padding: 10px 15px;
+    /* Adds padding inside each link */
+}
+
+/* Style for the header section */
+.jumbotron.back-image {
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Container for heading and buttons */
+.myclass.mainHeading {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent background */
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Heading styling */
+.myclass.mainHeading h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff4d4d;
+    /* Text color for 'Welcome to OSMS' */
+}
+
+/* Subheading styling */
+.myclass.mainHeading p {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f1f1f1;
+    /* Light color for the subheading */
+}
+
+/* Button styling */
+.myclass.mainHeading .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.myclass.mainHeading .btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.myclass.mainHeading .btn-danger {
+    /* background-color: #dc3545; */
+    color: white;
+}
+
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* Set the text color to black for visibility */
+}
+
+/* Default styles */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Styles for small screens (e.g., phones) */
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  }
+
+/* Style for the header section */
+.jumbotron.back-image {
+    background-image: url('image/Home.service.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+/* Container for heading and buttons */
+.myclass.mainHeading {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* semi-transparent background */
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Heading styling */
+.myclass.mainHeading h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    /* Text color for 'Welcome to Home Service' */
+}
+
+/* Subheading styling */
+.myclass.mainHeading p {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f1f1f1;
+    /* Light color for the subheading */
+}
+
+/* Button styling */
+.myclass.mainHeading .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.myclass.mainHeading .btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.myclass.mainHeading .btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Button hover effect */
+.myclass.mainHeading .btn-success:hover {
+    background-color: #218838;
+}
+
+.myclass.mainHeading .btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Introduction Section Styles */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .jumbotron h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .jumbotron {
+      padding: 1.5rem;
+    }
+  
+    .jumbotron h3 {
+      font-size: 1.75rem;
+    }
+  
+    .jumbotron .lead,
+    .jumbotron p {
+      font-size: 1rem;
+    }
+  }
+
+  /* Services Section Styles */
+#Services {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .fas {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .card:hover .fas.fa-tools {
+    color: #007bff;
+  }
+  
+  .card:hover .fas.fa-plumber {
+    color: #28a745;
+  }
+  
+  .card:hover .fas.fa-bolt {
+    color: #959595;
+  }
+
+  
